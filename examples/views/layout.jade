@@ -1,0 +1,20 @@
+doctype html
+html 
+	head
+		title Passport Example
+	body
+		unless user
+			p
+				a(href="/") Home
+				&nbsp; 
+				a(href="/login") Log In
+				&nbsp; 
+		else 
+			p
+				a(href="/") Home
+				&nbsp;
+				a(href="/account") Account
+				&nbsp; 
+				a(href="/logout") Log Out
+				&nbsp;
+		block content

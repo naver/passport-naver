@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "express": "^4.6.1",
+    "express-session": "^1.6.5",
+    "jade": "^1.4.2",
+    "passport": "^0.2.0",
+    "passport-oauth": "^1.0.0",
+    "xml2js": "^0.4.4"
+  }
+}

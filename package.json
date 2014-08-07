@@ -1,0 +1,45 @@
+{
+  "name": "passport-naver",
+  "version": "1.0.1",
+  "description": "Naver authentication strategy for Passport",
+  "keywords": [
+    "passport",
+    "naver",
+    "auth",
+    "oauth",
+    "authentication",
+    "oauth2"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/naver/passport-naver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/naver/passport-naver/issues"
+  },
+  "author": {
+    "name": "Young-il Cho",
+    "email": "youngil.cho@navercorp.com",
+    "url": "http://github.com/terzeron"
+  },
+  "contributors": [
+    {
+      "name": "Chanhee Kim",
+      "email": "chanhee.kim@navercorp.com",
+      "url": ""
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-oauth": "~0.1.4",
+    "xml2js": "^0.4.4"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/naver/passport-naver"
+}
