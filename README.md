@@ -185,7 +185,7 @@ You can execute the following application from the 'examples' directory.
 ## Thanks to 
 
   - [Jared Hanson](http://github.com/jaredhanson)
-  - [Chanhee Kim]()
+  - Chanhee Kim(chanhee.kim@navercorp.com)
 
 ## Author
 
