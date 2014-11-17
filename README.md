@@ -191,6 +191,7 @@ You can execute the following application from the 'examples' directory.
 ## Author
 
   - [Young-il Cho](http://github.com/terzeron)
+  - [Seunglak Choi](http://github.com/seunglak)
   
 ## License
 
