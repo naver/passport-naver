@@ -1,6 +1,6 @@
 {
   "name": "passport-naver",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Naver authentication strategy for Passport",
   "keywords": [
     "passport",
@@ -27,7 +27,12 @@
       "name": "Chanhee Kim",
       "email": "chanhee.kim@navercorp.com",
       "url": ""
-    }
+    },
+    {
+      "name": "Seunglak Choi",
+      "email": "seunglak@gmail.com",
+      "url": ""
+    }    
   ],
   "licenses": [
     {

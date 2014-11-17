@@ -84,7 +84,7 @@ After the client id & secret are issued, assign them to the following variables.
   
             clientID: config.naver.clientID,
             clientSecret: config.naver.clientSecret,
-            callbackURL: config.naver.callbackURL
+            callbackURL: config.naver.callbackURL,
 
 
 ## Examples
@@ -114,7 +114,8 @@ You can execute the following application from the 'examples' directory.
 	passport.use(new NaverStrategy({
 	    clientID: client_id,
 	    clientSecret: client_secret,
-	    callbackURL: callback_url
+	    callbackURL: callback_url,
+        svcType: 0  // optional. see http://gamedev.naver.com/index.php/%EC%98%A8%EB%9D%BC%EC%9D%B8%EA%B2%8C%EC%9E%84:OAuth_2.0_API
 	}, function(accessToken, refreshToken, profile, done) {
 		process.nextTick(function () {
 			//console.log("profile=");
