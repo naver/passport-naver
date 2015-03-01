@@ -72,7 +72,23 @@ application:
         .get(passport.authenticate('naver', {
             failureRedirect: '#!/auth/login'
         }), users.createAccount, users.authCallback);
-        
+
+
+#### Re-authentication
+
+Re-authentication is the act of asking a user to re-enter their Naver password whenever they sign in your service. This is useful to prevent man-in-the-middle hijacking while the user session of Naver is alive.
+
+Here is an example that triggers re-authentication using an authType:
+
+    passport.use(new NaverStrategy({
+            clientID: config.naver.clientID,
+            clientSecret: config.naver.clientSecret,
+            callbackURL: config.naver.callbackURL,
+            svcType: 0,
+            authType: 'reauthenticate'  // enable re-authentication
+        },
+
+
 ## App Registration for the Secret Generation
 
 You need to register your application from Naver Developer Center.
