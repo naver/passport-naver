@@ -48,6 +48,7 @@
   "main": "./lib",
   "dependencies": {
     "passport-oauth": "^1.0.0",
+    "underscore": "^1.8.3",
     "xml2js": "^0.4.4"
   },
   "readmeFilename": "README.md",
