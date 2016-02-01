@@ -42,8 +42,7 @@
   ],
   "main": "./lib",
   "dependencies": {
-    "passport-oauth": "~0.1.4",
-    "xml2js": "^0.4.4"
+    "passport-oauth": "~0.1.4"
   },
   "readmeFilename": "README.md",
   "homepage": "https://github.com/naver/passport-naver"
