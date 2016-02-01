@@ -3,6 +3,7 @@ var express = require('express')
 , session = require('express-session')
 , NaverStrategy = require('../lib/index.js').Strategy;
 
+// @todo Use single `var` keyword?
 var client_id = '************ your app client id ************';
 var client_secret = '************ your app client secret ************';
 var callback_url = '************ your app callback url ************';
@@ -19,8 +20,10 @@ passport.use(new NaverStrategy({
     clientID: client_id,
     clientSecret: client_secret,
     callbackURL: callback_url
+	// @todo Suggest to use `state` parameter?
 }, function(accessToken, refreshToken, profile, done) {
 	process.nextTick(function () {
+		// @todo Remove necessary comment
 		//console.log("profile=");
 		//console.log(profile);
 		// data to be saved in DB
@@ -61,7 +64,7 @@ app.get('/login', function(req, res){
 
 // Setting the naver oauth routes
 app.get('/auth/naver', 
-	passport.authenticate('naver', null), function(req, res) {
+	passport.authenticate('naver', null), function(req, res) { // @todo Additional handler is necessary. Remove?
     	console.log('/auth/naver failed, stopped');
     });
 

@@ -208,6 +208,7 @@ You can execute the following application from the 'examples' directory.
 
   - [Young-il Cho](http://github.com/terzeron)
   - [Seunglak Choi](http://github.com/seunglak)
+  - [MooYeol Lee](https://github.com/mooyoul) at [Law&Company](http://lawcompany.co.kr)
   
 ## License
 
