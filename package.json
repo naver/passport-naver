@@ -1,6 +1,6 @@
 {
   "name": "passport-naver",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Naver authentication strategy for Passport",
   "keywords": [
     "passport",
@@ -32,7 +32,12 @@
       "name": "Seunglak Choi",
       "email": "seunglak@gmail.com",
       "url": ""
-    }    
+    },
+    {
+      "name": "MooYeol Lee",
+      "email": "mooyoul@gmail.com",
+      "url": "https://github.com/mooyoul"
+    }
   ],
   "licenses": [
     {
@@ -42,7 +47,8 @@
   ],
   "main": "./lib",
   "dependencies": {
-    "passport-oauth": "~0.1.4"
+    "passport-oauth": "^1.0.0",
+    "underscore": "^1.8.3"
   },
   "readmeFilename": "README.md",
   "homepage": "https://github.com/naver/passport-naver"
