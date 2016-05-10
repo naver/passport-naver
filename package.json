@@ -1,6 +1,6 @@
 {
   "name": "passport-naver",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Naver authentication strategy for Passport",
   "keywords": [
     "passport",
@@ -48,8 +48,7 @@
   "main": "./lib",
   "dependencies": {
     "passport-oauth": "^1.0.0",
-    "underscore": "^1.8.3",
-    "xml2js": "^0.4.4"
+    "underscore": "^1.8.3"
   },
   "readmeFilename": "README.md",
   "homepage": "https://github.com/naver/passport-naver"
