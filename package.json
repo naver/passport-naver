@@ -51,5 +51,12 @@
     "underscore": "^1.8.3"
   },
   "readmeFilename": "README.md",
-  "homepage": "https://github.com/naver/passport-naver"
+  "homepage": "https://github.com/naver/passport-naver",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
 }
